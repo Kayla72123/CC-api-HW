@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "GreatVictorian";
+    src: url("GreatVictorian-Standard.otf");
+}
+
+@font-face {
+    font-family: "Fonda";
+    src: url("Fondamento-Regular.ttf");
+}
+body {
+    background-image: url("smartBkg2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    min-height: 100vh;
+    
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-family: "GreatVictorian";
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    font-size: 50px;
+    
+}
+
+p {
+    font-size: 22px;
+    font-family: "Fonda";
+    max-width: 500px;
+    margin: -25px auto;
+    color: white;
+}
+
+button {
+    font-size: 30px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#ellie {
+    position: fixed;
+    top: 240px;
+    left: 30px;
+    height: 300px;
+}
+
+#invisibleButton {
+    position: fixed;
+    top: 255px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    opacity: 0%;
+    
+    cursor: pointer;
+}
