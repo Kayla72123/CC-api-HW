@@ -50,14 +50,14 @@ button {
 
 #ellie {
     position: fixed;
-    top: 350px;
+    top: 340px;
     left: 60px;
     height: 450px;
 }
 
 #invisibleButton {
     position: fixed;
-    top: 380px;
+    top: 370px;
     left: 250px;
     width: 90px;
     height: 90px;
